@@ -1003,3 +1003,12 @@
     color: #ffffff;
     cursor: pointer;
 }
+
+.footer{
+    color:white;
+    text-align: center;
+}
+
+.footer .sp2{
+    color: #ffae00;
+}
