@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'Museo 300';
+    src: url("fonts/Museo300-Regular.woff") format("woff");
+    font-family: 'MuseoSans 300C';
+    src: url("fonts/MuseoSansCyrl-300.woff") format("woff");
+    font-family: 'Museo 700';
+    src: url("fonts/MuseoSansCyrl-700.woff") format("woff");
+    font-family: 'Museo 700I';
+    src: url("fonts/MuseoSansCyrl-700Italic.woff") format("woff");
+}
+
+.html,.body{
+    height: 100%;
+    color: #25282d;
+    -webkit-overflow-scrolling:touch;
+    font-family: "Museo 300";
+    font-size: 1rem;
+
+}
+
+.bg{
+    background: url("Top_background.png") no-repeat 50% 50%;
+    background-size: contain;
+    position: relative;
+
+    /* background: #007370; */
+}
+
+
+
+
+ /*Меню*/
+
+.navbar-nav{
+    font-family: "Museo 300";
+    padding: 0 16px;
+    user-select: none;
+    font-size: 16px;
+
+
+}
+
+.navbar-nav .nav-item .nav-link .border-right{
+    border-right: solid;
+    border-right-color: #ffae00;
+    border-right-width: 1.5px;
+}
+.navbar-nav .nav-item .nav-link>li:nth-child(2){
+    border-right: solid;
+    border-right-color: #ffae00;
+    border-right-width: 1.5px;
+}
+.navbar-nav .nav-item .nav-link>li:nth-child(3){
+    border-right: solid;
+    border-right-color: #ffae00;
+    border-right-width: 1.5px;
+}
+
+navbar-nav .nav-link > li{
+    color: rgb(255, 255, 255);
+
+
+}
+
+
+/**/
+
+.slider-block .button {
+    border: 1px solid #f8e401;
+    height: 45px;
+    width: 100px;
+    color: #9cf801;
+    margin-top: 50px;
+    background: #111111;
+    user-select: none;
+    text-align: center;
+    line-height: 250%;
+    cursor: pointer;
+    transform: skew(-20deg);
+
+}
+
+.slider-block .button>span {
+    color: #9cf801;
+    font-size: 15px;
+    transform: skew(20deg);
+    font-family: 'Museo 300';
+}
+
+.parallelogram {
+    height: 15px;
+    width: 110px;
+    margin-top: 70px;
+    margin-left: 490px;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+
+.parallelogram .p1 {
+    height: 11px;
+    width: 22px;
+    background: #ffae00;
+    transform: skew(140deg);
+}
+
+.parallelogram .p2 {
+    height: 11px;
+    width: 22px;
+    background: #ffae00;
+    transform: skew(140deg);
+}
+
+.parallelogram .p3 {
+    height: 11px;
+    width: 22px;
+    background: #ffae00;
+    transform: skew(140deg);
+    background-image: repeating-linear-gradient(to top, rgb(156, 248, 1) 17.5%, rgb(156, 248, 1) 19.2%, rgb(255, 255, 255) 25.6%, rgb(255, 255, 255) 44.1%, rgb(255, 255, 255) 83.9%, rgb(156, 248, 1) 100%, rgb(156, 248, 1) 100%);
+}
+
+.parallelogram .p4 {
+    height: 11px;
+    width: 22px;
+    background: #ffae00;
+    transform: skew(140deg);
+}
+
+.slider-block{
+    margin-top: 100px;
+}
+
+.blocks{
+    margin-top: 50px;
+}
+
+
+
+
+
+#slider-block .text .h1{
+    font-family: "Museo 700I" !important;
+    font-size: 65px;
+
+}
+#slider-block .text .p1{
+    font-family: "MuseoSans 300C" !important;
+    font-size: 15px;
+
+}
+
+#container w{
+    margin-top: 98px;
+
+}
+
+.cart .h{
+    font-family: "Museo 300";
+    font-size: 24px;
+}
+
+.cart .p{
+    font-family: "Museo 300";
+    font-size: 18px;
+}
+.cart .More{
+    font-size: 25px;
+    font-family: "Museo 300";
+}
+
+#content-block-items{
+    /*margin-top: 100px;*/
+}
+
+#content-block-items .b1{
+    background: white;
+}
+
+#content-block-items .b1 > img{
+    margin: 12px;
+}
+
+#content-block-items .b1 > text{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card .card-title{
+    font-family: "Museo 700";
+    font-size: 20px;
+}
+
+.card .card-text{
+    font-family: "Museo 700";
+    font-size: 20px;
+}
+
+
+#content-text{
+    margin-top: 100px;
+}
+
+.blocks-three{
+    margin-top: 50px;
+}
+
+.block-info{
+    margin-top: 150px;
+}
+
+.block-info .button {
+    border: 1px solid #000000;
+    height: 45px;
+    width: 100px;
+    color: #000000;
+    margin-top: 50px;
+    background: transparent;
+    user-select: none;
+    text-align: center;
+    line-height: 250%;
+    cursor: pointer;
+    transform: skew(-20deg);
+
+}
+
+.block-info .button>span {
+    color: #9cf801;
+    font-size: 15px;
+    transform: skew(20deg);
+    font-family: 'Museo 300';
+}
+
+.block-info-second{
+    /* margin-top: 50px; */
+}
+
+.block-info-second .button {
+    border: 1px solid #000000;
+    height: 45px;
+    width: 100px;
+    color: #000000;
+    margin-top: 50px;
+    background: transparent;
+    user-select: none;
+    text-align: center;
+    line-height: 250%;
+    cursor: pointer;
+    transform: skew(-20deg);
+
+}
+
+.block-info-second .button>span {
+    color: #9cf801;
+    font-size: 15px;
+    transform: skew(20deg);
+    font-family: 'Museo 300';
+}
+
+
+
+
+
+.emailblock {
+    margin-top: 100px;
+}
+
+.emailblock .text {
+
+    margin-top: 100px;
+    user-select: none;
+    font-family: 'Museo 300';
+}
+
+.emailblock .text>span:nth-child(1) {
+    font-size: 26px;
+    color: white;
+}
+
+.emailblock .text>span:nth-child(2) {
+    font-size: 35px;
+    color: #f8d801;
+}
+
+.section_entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+
+}
+
+.shapeentry {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid rgb(236, 236, 236);
+    transform: skew(150deg);
+}
+
+.entry .etr {
+    background: transparent;
+    transform: skew(-150deg);
+    height: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: 'Museo 300';
+}
+
+.entry {
+    width: 350px;
+    height: 30px;
+    transform: skew(180deg);
+    margin-left: 25px;
+}
+
+.shape-submit {
+
+    margin-right: 126px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    width: 165px;
+    height: 50px;
+    transform: skew(150deg);
+    justify-content: center;
+    border: 1px solid #ffde00;
+}
+
+.submit {
+    transform: skew(-150deg);
+    font-size: 20px;
+    color: #ffea00;
+    width: 80px;
+    height: 20px;
+    user-select: none;
+    font-family: 'Museo 300';
+}
+
+.shape-submit>div:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.info{
+    margin-top: 250px;
+    margin-bottom: 100px;
+
+}
+
+
